@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=32   # number of CPU per task
 #SBATCH --nodes=1   # number of nodes
 #SBATCH --mem=200G
-#SBATCH -p cq
+#SBATCH -p #node name
 #SBATCH -J "nextflow_triobinning"   # job name
 #SBATCH --mail-user=# email address
 #SBATCH --mail-type=BEGIN
